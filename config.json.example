@@ -1,0 +1,34 @@
+{
+  "api_base_url": "https://api.loqua.net",
+  "accounts": [
+    {
+      "email": "andipirdaus59@gmail.com",
+      "wallet_address": "0x97f06de6ee1fc329a9d7b80fc07706bf40d94f76e8593a24ac0ab8a847643302",
+      "access_token": "PASTE_ACCESS_TOKEN_FROM_LOGIN",
+      "invite_code": "QYS3ALAY5RLXC"
+    },
+    {
+      "email": "abdulbinjai32@gmail.com",
+      "wallet_address": "0x8f3816bccbed2cf8f05e76ad702677d5903ff79055bd05016c47d1c0edc7e946",
+      "access_token": "PASTE_ACCESS_TOKEN_FROM_LOGIN",
+      "invite_code": "QYS3ALAY5RLXC"
+    }
+  ],
+  "chat": {
+    "enabled": true,
+    "messages_per_day": 5,
+    "min_delay_sec": 60,
+    "max_delay_sec": 180,
+    "quality_templates": [
+      "Sui's Move object-centric model makes on-chain chat state really elegant to reason about.",
+      "The gasless transaction sponsor is a nice touch for frictionless daily participation.",
+      "zkLogin onboarding feels genuinely smoother than managing a separate keypair.",
+      "End-to-end encryption plus on-chain delivery is a clean privacy story.",
+      "Agent execution from within a conversation is the part I'm most excited to try.",
+      "Session delegation on the Sui transaction sponsor is thoughtfully designed.",
+      "Persistent agent memory through Walrus storage gives agents real continuity.",
+      "KYA (Know Your Agent) should make agent-to-agent trust much more tractable."
+    ]
+  },
+  "log_file": "logs/bot.log"
+}

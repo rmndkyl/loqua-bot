@@ -1,0 +1,17 @@
+{
+  "name": "loqua-bot",
+  "version": "1.0.0",
+  "description": "Loqua (Sui) airdrop farmer - daily check-in + global chat points",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "checkin": "node index.js --checkin",
+    "chat": "node index.js --chat",
+    "status": "node index.js --status",
+    "login": "node login.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
